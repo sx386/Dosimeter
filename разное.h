@@ -1,0 +1,13 @@
+void Power33_initialization (void);
+void Power33_deinitialization (void);
+void Sound_initialization (void);
+void SWD (char set);
+void Beep (unsigned int n, unsigned int d);
+void Lcd_Led_deinitialization (void);
+void Lcd_Led_initialization (void);
+void Led_initialization (void);
+void Led_deinitialization (void);
+void Lcd_Led_on (void);
+void Lcd_Led_off (void);
+void Lcd_Led_Set (int count);
+char Led_Sound (char _Led, char _Sound);
